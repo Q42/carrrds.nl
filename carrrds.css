@@ -1,0 +1,1016 @@
+body.en :lang(nl) {
+    display: none;
+}
+
+body.nl :lang(en) {
+    display: none;
+}
+
+@font-face {
+    font-family: leanderregular;
+    src: url(Leander-webfont.eot);
+    src: url(Leander-webfont.eot?#iefix) format(embedded-opentype), url(Leander-webfont.woff) format(woff), url(Leander-webfont.ttf) format(truetype), url(Leander-webfont.svg#leanderregular) format(svg);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media screen and -webkit-min-device-pixel-ratio0 {
+    @font-face {
+        font-family: leanderregular;
+        src: url(Leander-webfont.svg#leanderregular) format(svg);
+    }
+
+}
+
+body {
+    font-family: leanderregular;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+#logobox {
+    width: 500px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: -350px;
+    z-index: 10;
+}
+
+#logobox img {
+    width: 500px;
+}
+
+header {
+    height: 900px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    overflow: hidden;
+    background-image: url(images/island4.jpg);
+    background-position: center;
+}
+
+h1 {
+    font-size: 2.3em;
+    letter-spacing: -1px;
+}
+
+.offsetlinks {
+    position: absolute;
+/*transform*/
+    -webkit-transform: translateY(-150px);
+    -moz-transform: translateY(-150px);
+    -ms-transform: translateY(-150px);
+    -o-transform: translateY(-150px);
+    transform: translateY(-150px);
+}
+
+.offsetlinks2 {
+    position: absolute;
+/*transform*/
+    -webkit-transform: translateY(50px);
+    -moz-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    -o-transform: translateY(50px);
+    transform: translateY(50px);
+}
+
+.rope {
+    width: 100%;
+    height: 66px;
+    background-image: url(images/rope.png);
+/*background-size*/
+    -webkit-background-size: 118px 66px;
+    -moz-background-size: 118px 66px;
+    -o-background-size: 118px 66px;
+    background-size: 118px 66px;
+    position: absolute;
+/*transform*/
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -o-transform: translateY(-30px);
+    transform: translateY(-30px);
+}
+
+/*CARRRRD*/
+.card {
+    width: 195px;
+    height: 298px;
+/*border-radius*/
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+/*box-shadow*/
+    -webkit-box-shadow: 0 0 18px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 18px rgba(0,0,0,0.5);
+    box-shadow: 0 0 18px rgba(0,0,0,0.5);
+    float: left;
+    margin: -22px;
+/*transform*/
+    -webkit-transform: rotateZ(4deg);
+    -moz-transform: rotateZ(4deg);
+    -ms-transform: rotateZ(4deg);
+    -o-transform: rotateZ(4deg);
+    transform: rotateZ(4deg);
+}
+
+.mapcard {
+    margin: 5px;
+/*transform*/
+    -webkit-transform: rotateZ(2deg);
+    -moz-transform: rotateZ(2deg);
+    -ms-transform: rotateZ(2deg);
+    -o-transform: rotateZ(2deg);
+    transform: rotateZ(2deg);
+/*box-shadow*/
+    -webkit-box-shadow: 0 0 100px rgba(250,222,113,1);
+    -moz-box-shadow: 0 0 100px rgba(250,222,113,1);
+    box-shadow: 0 0 100px rgba(250,222,113,1);
+}
+
+.leftcard {
+/*transform*/
+    -webkit-transform: rotateZ(-5deg) translateY(-12px);
+    -moz-transform: rotateZ(-5deg) translateY(-12px);
+    -ms-transform: rotateZ(-5deg) translateY(-12px);
+    -o-transform: rotateZ(-5deg) translateY(-12px);
+    transform: rotateZ(-5deg) translateY(-12px);
+/*backface-visibility*/
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card img {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    margin: 0;
+    left: 0;
+}
+
+.shinefx img {
+    height: 241px;
+    top: 50%;
+}
+
+.card .border {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+
+.cardidle1 {
+/*animation*/
+    -webkit-animation: cardidle1 8s ease infinite;
+    -moz-animation: cardidle1 8s ease infinite;
+    -ms-animation: cardidle1 8s ease infinite;
+    -o-animation: cardidle1 8s ease infinite;
+    animation: cardidle1 8s ease infinite;
+}
+
+.cardidle2 {
+/*animation*/
+    -webkit-animation: cardidle2 12s ease infinite;
+    -moz-animation: cardidle2 12s ease infinite;
+    -ms-animation: cardidle2 12s ease infinite;
+    -o-animation: cardidle2 12s ease infinite;
+    animation: cardidle2 12s ease infinite;
+}
+
+.cardidle3 {
+/*animation*/
+    -webkit-animation: cardidle2 5s ease infinite;
+    -moz-animation: cardidle2 5s ease infinite;
+    -ms-animation: cardidle2 5s ease infinite;
+    -o-animation: cardidle2 5s ease infinite;
+    animation: cardidle2 5s ease infinite;
+}
+
+@-webkit-keyframes cardidle1/* Safari and Chrome */ {
+    0-webkit-transform: translateY(-3px) rotateZ(2deg);
+}
+
+50% {
+    -webkit-transform: translateY(3px) rotateZ(-2deg);
+}
+
+100% {
+    -webkit-transform: translateY(-3px) rotateZ(2deg);
+}    
+
+}
+
+@-webkit-keyframes cardidle2/* Safari and Chrome */ {
+    0-webkit-transform: translateY(-2px) rotateZ(-3deg);
+}
+
+50% {
+    -webkit-transform: translateY(5px) rotateZ(3deg);
+}
+
+100% {
+    -webkit-transform: translateY(-2px) rotateZ(-3deg);
+}    
+
+}
+
+@-webkit-keyframes cardidle3/* Safari and Chrome */ {
+    0-webkit-transform: translateY(-4px) rotateZ(-1deg);
+}
+
+50% {
+    -webkit-transform: translateY(2px) rotateZ(6deg);
+}
+
+100% {
+    -webkit-transform: translateY(-4px) rotateZ(-1deg);
+}    
+
+}
+
+/*NAVBAR*/
+#navbar p {
+    float: left;
+    margin-right: 50px;
+    cursor: pointer;
+    text-shadow: 3px 3px 0 #000;
+    color: #FFF;
+    font-size: 1.1em;
+    margin-top: 23px;
+    text-align: center;
+/*transition*/
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+#navbar p:hover {
+/*transform*/
+    -webkit-transform: rotateZ(9deg);
+    -moz-transform: rotateZ(9deg);
+    -ms-transform: rotateZ(9deg);
+    -o-transform: rotateZ(9deg);
+    transform: rotateZ(9deg);
+    color: #FF0;
+}
+
+.flag {
+    width: 50px;
+    float: right;
+    margin-top: 20px;
+    margin-left: 15px;
+/*border-radius*/
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+/*box-shadow*/
+    -webkit-box-shadow: 4px 4px 0 #000;
+    -moz-box-shadow: 4px 4px 0 #000;
+    box-shadow: 4px 4px 0 #000;
+    cursor: pointer;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+}
+
+#navbar {
+    height: 75px;
+    width: 100%;
+    background-image: url(images/planks.png);
+/*background-size*/
+    -webkit-background-size: 666px 75px;
+    -moz-background-size: 666px 75px;
+    -o-background-size: 666px 75px;
+    background-size: 666px 75px;
+    z-index: 100;
+    border-top: 4px solid #000;
+    border-bottom: 4px solid #000;
+/*box-shadow*/
+    -webkit-box-shadow: 0 0 69px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 69px rgba(0,0,0,0.6);
+    box-shadow: 0 0 69px rgba(0,0,0,0.6);
+}
+
+.centercol {
+    width: 1000px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*TRAILERBOX*/
+#trailerbox {
+    height: 900px;
+    width: 100%;
+    background-image: url(images/island2.jpg);
+    background-position: center;
+    overflow: hidden;
+}
+
+#introbox {
+    width: 492px;
+    height: 536px;
+    background-image: url(images/parchment2.png);
+/*background-size*/
+    -webkit-background-size: 652px 606px;
+    -moz-background-size: 652px 606px;
+    -o-background-size: 652px 606px;
+    background-size: 652px 606px;
+    position: relative;
+    top: 175px;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 70px;
+}
+
+#introbox h1 {
+    margin-bottom: 6px;
+}
+
+#carrrdsintro {
+    width: 392px;
+    height: 436px;
+    background-image: url(images/parchment2.png);
+/*background-size*/
+    -webkit-background-size: 552px 506px;
+    -moz-background-size: 552px 506px;
+    -o-background-size: 552px 506px;
+    background-size: 552px 506px;
+    position: absolute;
+    top: 175px;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 70px;
+/*transform*/
+    -webkit-transform: translateX(300px)translateY(60px)rotateZ(4deg);
+    -moz-transform: translateX(300px)translateY(60px)rotateZ(4deg);
+    -ms-transform: translateX(300px)translateY(60px)rotateZ(4deg);
+    -o-transform: translateX(300px)translateY(60px)rotateZ(4deg);
+    transform: translateX(300px)translateY(60px)rotateZ(4deg);
+}
+
+/*ABOUTGAME*/
+#aboutdescr {
+    position: relative;
+    width: 332px;
+    height: 189px;
+    float: left;
+    top: 550px;
+    text-align: center;
+    background-image: url(images/parchment4.png);
+/*background-size*/
+    -webkit-background-size: 398px 256px;
+    -moz-background-size: 398px 256px;
+    -o-background-size: 398px 256px;
+    background-size: 398px 256px;
+    padding: 34px;
+    font-size: .9em;
+}
+
+#aboutgame {
+    height: 900px;
+    width: 100%;
+    background-image: url(images/island1.jpg);
+    background-position: center;
+    overflow: hidden;
+}
+
+#aboutgamecards {
+    width: 615px;
+    height: 600px;
+    position: relative;
+    top: 125px;
+    margin-left: auto;
+    margin-right: auto;
+/*transition*/
+    -webkit-transition: top 500ms cubic-bezier(0.645,0.045,0.355,1.000);
+    -moz-transition: top 500ms cubic-bezier(0.645,0.045,0.355,1.000);
+    -o-transition: top 500ms cubic-bezier(0.645,0.045,0.355,1.000);
+    transition: top 500ms cubic-bezier(0.645,0.045,0.355,1.000);
+/* easeInOutCubic */
+}
+
+#mapsintro {
+    position: relative;
+    font-size: 1.4em;
+    top: -10px;
+    margin-bottom: -25px;
+}
+
+.cardbutton {
+    width: 44px;
+    height: 44px;
+    float: left;
+/*border-radius*/
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    margin-left: 4px;
+    border: #000 solid 3px;
+    cursor: pointer;
+/*box-shadow*/
+    -webkit-box-shadow: 0 3px 0 #000;
+    -moz-box-shadow: 0 3px 0 #000;
+    box-shadow: 0 3px 0 #000;
+/*transition*/
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    position: relative;
+}
+
+.cardbutton:hover {
+/*box-shadow*/
+    -webkit-box-shadow: 0 6px 0 2px #000;
+    -moz-box-shadow: 0 6px 0 2px #000;
+    box-shadow: 0 6px 0 2px #000;
+    top: -3px;
+}
+
+.cardbutton img {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+#card-red {
+    background-color: red;
+}
+
+#card-green {
+    background-color: green;
+}
+
+#card-blue {
+    background-color: #29abe2;
+}
+
+#card-purple {
+    background-color: #794fa0;
+}
+
+#card-pink {
+    background-color: #ef5596;
+}
+
+#card-yellow {
+    background-color: #FF0;
+}
+
+#card-grey {
+    background-color: grey;
+}
+
+#card-orange {
+    background-color: #ff8a00;
+}
+
+#card-white {
+    background-color: #FFF;
+}
+
+#card-brown {
+    background-color: #5f4419;
+}
+
+#card-black {
+    background-color: #000;
+}
+
+#cardbutton-menu {
+    width: 600px;
+    height: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 7px;
+    top: 110px;
+    position: relative;
+    background-image: url(images/planks.png);
+/*background-size*/
+    -webkit-background-size: 494px;
+    -moz-background-size: 494px;
+    -o-background-size: 494px;
+    background-size: 494px;
+    border: #000 4px solid;
+/*border-radius*/
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+#treasuremapsbox {
+    width: 492px;
+    height: 136px;
+    background-image: url(images/paperstripe.png);
+/*background-size*/
+    -webkit-background-size: 651px 203px;
+    -moz-background-size: 651px 203px;
+    -o-background-size: 651px 203px;
+    background-size: 651px 203px;
+    position: absolute;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 70px;
+    z-index: 5;
+/*transform*/
+    -webkit-transform: rotateZ(-2deg)translateY(-87px)translateX(165px);
+    -moz-transform: rotateZ(-2deg)translateY(-87px)translateX(165px);
+    -ms-transform: rotateZ(-2deg)translateY(-87px)translateX(165px);
+    -o-transform: rotateZ(-2deg)translateY(-87px)translateX(165px);
+    transform: rotateZ(-2deg)translateY(-87px)translateX(165px);
+}
+
+/*CARDSBOX*/
+#cardsbox {
+    height: 900px;
+    width: 100%;
+    background-image: url(images/parchment.png);
+    background-position: center;
+    position: absolute;
+    z-index: 10;
+/*transform*/
+    -webkit-transform: translateY(-63px);
+    -moz-transform: translateY(-63px);
+    -ms-transform: translateY(-63px);
+    -o-transform: translateY(-63px);
+    transform: translateY(-63px);
+}
+
+#cardsbox .centercol {
+    text-align: center;
+    padding-top: 90px;
+    text-shadow: 0 0 6px rgba(0,0,0,0.3);
+}
+
+#filler {
+    height: 760px;
+    width: 100%;
+}
+
+#cardscontainer {
+    position: relative;
+    top: 70px;
+    width: 460px;
+    height: 500px;
+    float: left;
+}
+
+#cardsdescr {
+    width: 500px;
+    height: 460px;
+    padding: 20px;
+    float: left;
+}
+
+#selectionplank {
+    width: 547px;
+    height: 125px;
+    background-image: url(images/plank.png);
+/*background-size*/
+    -webkit-background-size: 547px 125px;
+    -moz-background-size: 547px 125px;
+    -o-background-size: 547px 125px;
+    background-size: 547px 125px;
+}
+
+#selectionplank img {
+    position: relative;
+    top: -17px;
+/*transition*/
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    transition: all 400ms ease;
+}
+
+#selectionplank img:hover {
+    top: -29px;
+    cursor: pointer;
+}
+
+.plankicon {
+    width: 70px;
+}
+
+#gunicon {
+    width: 96px;
+    left: -9px;
+}
+
+#descrtext {
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+/*RULES*/
+#alternativerules {
+    height: 900px;
+    width: 100%;
+    background-image: url(images/island3.jpg);
+    background-position: center;
+    overflow: hidden;
+}
+
+#gunslingeranim {
+    position: relative;
+    width: 512px;
+    height: 512px;
+    top: 200px;
+/*transform*/
+    -webkit-transform: translateY(400px) rotateZ(-10deg);
+    -moz-transform: translateY(400px) rotateZ(-10deg);
+    -ms-transform: translateY(400px) rotateZ(-10deg);
+    -o-transform: translateY(400px) rotateZ(-10deg);
+    transform: translateY(400px) rotateZ(-10deg);
+    opacity: 0;
+/*transition*/
+    -webkit-transition: all 700ms ease;
+    -moz-transition: all 700ms ease;
+    -o-transition: all 700ms ease;
+    transition: all 700ms ease;
+}
+
+#gunslingeranim img {
+    width: 360px;
+}
+
+/*APP*/
+#app {
+    height: 900px;
+    width: 100%;
+    background-image: url(images/island4.jpg);
+    background-position: center;
+    overflow: hidden;
+}
+
+#appbox {
+    width: 492px;
+    height: 536px;
+    background-image: url(images/parchment2.png);
+/*background-size*/
+    -webkit-background-size: 652px 606px;
+    -moz-background-size: 652px 606px;
+    -o-background-size: 652px 606px;
+    background-size: 652px 606px;
+    position: relative;
+    top: 140px;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 70px;
+    z-index: 5;
+}
+
+#appbox img {
+    width: 210px;
+    margin: 16px;
+}
+
+#flyingparrot {
+    position: relative;
+    width: 512px;
+    height: 512px;
+    left: 500px;
+    top: -500px;
+    z-index: 1;
+/*transform*/
+    -webkit-transform: translateX(500px);
+    -moz-transform: translateX(500px);
+    -ms-transform: translateX(500px);
+    -o-transform: translateX(500px);
+    transform: translateX(500px);
+    opacity: 0;
+/*transition*/
+    -webkit-transition: all 700ms ease;
+    -moz-transition: all 700ms ease;
+    -o-transition: all 700ms ease;
+    transition: all 700ms ease;
+}
+
+.parrot_in {
+/*transform*/
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1.0;
+}
+
+#downloadsbox {
+    width: 492px;
+    height: 536px;
+    background-image: url(images/parchment2.png);
+/*background-size*/
+    -webkit-background-size: 652px 606px;
+    -moz-background-size: 652px 606px;
+    -o-background-size: 652px 606px;
+    background-size: 652px 606px;
+    position: relative;
+    top: -360px;
+    left: 360px;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 70px;
+    z-index: 5;
+/*transform*/
+    -webkit-transform: rotateZ(2deg);
+    -moz-transform: rotateZ(2deg);
+    -ms-transform: rotateZ(2deg);
+    -o-transform: rotateZ(2deg);
+    transform: rotateZ(2deg);
+}
+
+#downloadsbox p {
+    margin-bottom: 33px;
+}
+
+/*FAQ*/
+#faq {
+    height: 900px;
+    width: 100%;
+    background-image: url(images/island5.jpg);
+    background-position: center;
+    overflow: hidden;
+}
+
+.faq-paper {
+    background-image: url(images/parchment2.png);
+/*background-size*/
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    width: 750px;
+    height: 780px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 70px;
+    margin-top: 28px;
+}
+
+.faq-paper h1 {
+    font-size: 1.5em;
+}
+
+.faq-paper p {
+    font-size: .9em;
+    margin-bottom: -13px;
+}
+
+.center {
+    text-align: center;
+}
+
+/*buy*/
+#buybox img {
+    width: 250px;
+}
+
+#buybox {
+    width: 492px;
+    height: 536px;
+    background-image: url(images/parchment2.png);
+/*background-size*/
+    -webkit-background-size: 652px 606px;
+    -moz-background-size: 652px 606px;
+    -o-background-size: 652px 606px;
+    background-size: 652px 606px;
+    position: relative;
+    top: 130px;
+    left: 166px;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 70px;
+    z-index: 5;
+/*transform*/
+    -webkit-transform: rotateZ(2deg);
+    -moz-transform: rotateZ(2deg);
+    -ms-transform: rotateZ(2deg);
+    -o-transform: rotateZ(2deg);
+    transform: rotateZ(2deg);
+}
+
+#buy {
+    height: 900px;
+    width: 100%;
+    background-image: url(images/island1.jpg);
+    background-position: center;
+    overflow: hidden;
+}
+
+.wrap {
+/*perspective*/
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -ms-perspective: 800px;
+    -o-perspective: 800px;
+    perspective: 800px;
+/*perspective-origin*/
+    -webkit-perspective-origin: 50% 100px;
+    -moz-perspective-origin: 50% 100px;
+    -ms-perspective-origin: 50% 100px;
+    -o-perspective-origin: 50% 100px;
+    perspective-origin: 50% 100px;
+    width: 300px;
+    margin: 10px;
+    z-index: 1;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: -320px;
+    top: 250px;
+    height: 450px;
+}
+
+.wrap:hover .spintransition {
+/*transform*/
+    -webkit-transform: rotateY(210deg);
+    -moz-transform: rotateY(210deg);
+    -ms-transform: rotateY(210deg);
+    -o-transform: rotateY(210deg);
+    transform: rotateY(210deg);
+}
+
+.cube {
+    position: relative;
+    width: 100px;
+/*transform-style*/
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+/*transform-origin*/
+    -webkit-transform-origin: 150% 100%;
+    -moz-transform-origin: 150% 100%;
+    -ms-transform-origin: 150% 100%;
+    -o-transform-origin: 150% 100%;
+    transform-origin: 150% 100%;
+}
+
+.front {
+    position: absolute;
+    width: 280px;
+    height: 400px;
+}
+
+.back {
+    position: absolute;
+    width: 280px;
+    height: 400px;
+}
+
+.cube .left div {
+    width: 50px;
+}
+
+.cube .right div {
+    width: 50px;
+}
+
+.cube img {
+    width: 100%;
+    height: 100%;
+}
+
+.back {
+/*transform*/
+    -webkit-transform: translateZ(-50px) rotateY(180deg);
+    -moz-transform: translateZ(-50px) rotateY(180deg);
+    -ms-transform: translateZ(-50px) rotateY(180deg);
+    -o-transform: translateZ(-50px) rotateY(180deg);
+    transform: translateZ(-50px) rotateY(180deg);
+}
+
+.right {
+/*transform*/
+    -webkit-transform: rotateY(-270deg)translateZ(180px) translateY(-400px) translateX(50px);
+    -moz-transform: rotateY(-270deg)translateZ(180px) translateY(-400px) translateX(50px);
+    -ms-transform: rotateY(-270deg)translateZ(180px) translateY(-400px) translateX(50px);
+    -o-transform: rotateY(-270deg)translateZ(180px) translateY(-400px) translateX(50px);
+    transform: rotateY(-270deg)translateZ(180px) translateY(-400px) translateX(50px);
+/*transform-origin*/
+    -webkit-transform-origin: top right;
+    -moz-transform-origin: top right;
+    -ms-transform-origin: top right;
+    -o-transform-origin: top right;
+    transform-origin: top right;
+    height: 400px;
+}
+
+.left {
+/*transform*/
+    -webkit-transform: rotateY(270deg) translateX(-50px);
+    -moz-transform: rotateY(270deg) translateX(-50px);
+    -ms-transform: rotateY(270deg) translateX(-50px);
+    -o-transform: rotateY(270deg) translateX(-50px);
+    transform: rotateY(270deg) translateX(-50px);
+/*transform-origin*/
+    -webkit-transform-origin: center left;
+    -moz-transform-origin: center left;
+    -ms-transform-origin: center left;
+    -o-transform-origin: center left;
+    transform-origin: center left;
+    height: 400px;
+}
+
+.top {
+/*transform*/
+    -webkit-transform: rotateX(-90deg) translateY(-50px);
+    -moz-transform: rotateX(-90deg) translateY(-50px);
+    -ms-transform: rotateX(-90deg) translateY(-50px);
+    -o-transform: rotateX(-90deg) translateY(-50px);
+    transform: rotateX(-90deg) translateY(-50px);
+/*transform-origin*/
+    -webkit-transform-origin: top center;
+    -moz-transform-origin: top center;
+    -ms-transform-origin: top center;
+    -o-transform-origin: top center;
+    transform-origin: top center;
+}
+
+.bottom {
+/*transform*/
+    -webkit-transform: rotateX(90deg) translateY(50px);
+    -moz-transform: rotateX(90deg) translateY(50px);
+    -ms-transform: rotateX(90deg) translateY(50px);
+    -o-transform: rotateX(90deg) translateY(50px);
+    transform: rotateX(90deg) translateY(50px);
+/*transform-origin*/
+    -webkit-transform-origin: bottom center;
+    -moz-transform-origin: bottom center;
+    -ms-transform-origin: bottom center;
+    -o-transform-origin: bottom center;
+    transform-origin: bottom center;
+}
+
+.front {
+/*transform*/
+    -webkit-transform: translateZ(50px);
+    -moz-transform: translateZ(50px);
+    -ms-transform: translateZ(50px);
+    -o-transform: translateZ(50px);
+    transform: translateZ(50px);
+}
+
+.spintransition {
+/*transform*/
+    -webkit-transform: rotateY(30deg);
+    -moz-transform: rotateY(30deg);
+    -ms-transform: rotateY(30deg);
+    -o-transform: rotateY(30deg);
+    transform: rotateY(30deg);
+/*transition*/
+    -webkit-transition: all 700ms ease;
+    -moz-transition: all 700ms ease;
+    -o-transition: all 700ms ease;
+    transition: all 700ms ease;
+}
+
+.spin {
+/*animation*/
+    -webkit-animation: spin 20s linear infinite;
+    -moz-animation: spin 20s linear infinite;
+    -ms-animation: spin 20s linear infinite;
+    -o-animation: spin 20s linear infinite;
+    animation: spin 20s linear infinite;
+}
+
+.spinhover {
+/*animation*/
+    -webkit-animation: spin 5s linear infinite;
+    -moz-animation: spin 5s linear infinite;
+    -ms-animation: spin 5s linear infinite;
+    -o-animation: spin 5s linear infinite;
+    animation: spin 5s linear infinite;
+}
+
+@-webkit-keyframes spin/* Safari and Chrome */ {
+    0-webkit-transform: rotateY(0deg);
+}
+
+100% {
+    -webkit-transform: rotateY(-360deg);
+}    
+
+}
